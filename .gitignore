@@ -125,3 +125,5 @@ dmypy.json
 
 # Local Netlify folder
 .netlify
+
+/tmp

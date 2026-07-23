@@ -44,6 +44,11 @@ class MaximumRelevanceMinimumRedundancy(SelectorMixin, BaseEstimator):
     science to select a subset of features from a larger feature set. The goal of MRMR is to choose features that
     have high relevance to the target variable while minimizing redundancy among the already selected features.
 
+    Ref: Hanchuan Peng, Fuhui Long, and Chris Ding.
+    "Feature selection based on mutual information: criteria of max-dependency, max-relevance, and min-redundancy."
+    IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI), 27(8):1226-1238, 2005.
+    URL: https://doi.org/10.1109/TPAMI.2005.159
+
     How MRMR works:
 
     1. Compute the relevance of each feature to the target variable: The relevance of a feature is typically

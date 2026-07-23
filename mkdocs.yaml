@@ -61,6 +61,7 @@ plugins:
             show_symbol_type_toc: true
             docstring_style: numpy
             docstring_section_style: table # table, list or spacy
+            show_source: false
             filters:
             - "!^_"  # Hide semi-private functions and methods
             - "!^__"  # Hide private functions and methods
@@ -88,8 +89,6 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.keys
